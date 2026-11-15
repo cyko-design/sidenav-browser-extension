@@ -108,4 +108,4 @@ These are archived development builds; use 0.5.0 for a fresh installation.
 
 Sidebar Nav is intended to be distributed **free of charge**. A public Chrome Web Store listing is planned but is not yet available.
 
-**Source-code licence:** No open-source licence has been selected or added yet. Free distribution of the extension does not automatically grant permission to modify or redistribute its source code.
+**Licence:** Sidebar Nav is open source under the [MIT License](LICENSE). You may use, modify, and redistribute the software, including commercially, provided you retain the copyright and licence notice. The software is provided without warranty.
