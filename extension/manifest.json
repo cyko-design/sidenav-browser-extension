@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Sidebar Nav",
-  "version": "0.4.2",
-  "description": "An optional, locally stored navigation sidebar for websites you choose.",
+  "version": "0.5.0",
+  "description": "Open a left-edge navigation sidebar on sites you choose. Scan for feature links and save them on this device.",
   "minimum_chrome_version": "111",
   "permissions": [
     "storage",
