@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sidebar Nav</title>
+  <link rel="stylesheet" href="popup.css">
+  <script defer src="sites/higgsfield.js"></script>
+  <script defer src="sites/website.js"></script>
+  <script defer src="navigation.js"></script>
+  <script defer src="discovery.js"></script>
+  <script defer src="popup.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Sidebar Nav</h1>
+    <p class="intro">Sidebar Nav makes website navigation easier with an expandable sidebar. Scan to discover additional feature links.</p>
+    <div id="sites"></div>
+  </main>
+  <template id="site-settings">
+    <section>
+      <h2 class="site-name"></h2>
+      <div class="row">
+        <button type="button" class="site-access" disabled>Allow Site Access</button>
+      </div>
+      <label class="row">
+        <span>Enhanced Navigation</span>
+        <input type="checkbox" role="switch" disabled>
+        <span class="switch-state" aria-hidden="true"></span>
+      </label>
+      <p class="setting-description">Displays an expandable navigation sidebar from the left edge of this website.</p>
+      <div class="row">
+        <button type="button" class="scan" disabled>Scan Navigation</button>
+        <small class="scan-hint" hidden>Allow site access to scan.</small>
+      </div>
+      <div class="row">
+        <button type="button" class="clear" disabled>Clear Saved Navigation</button>
+      </div>
+      <div class="confirmation" hidden>
+        <p>Clear links saved from scans for <span class="confirm-site"></span> and reset Last Scanned?</p>
+        <p class="built-in-note">Built-in links stay in the sidebar.</p>
+        <div class="confirm-actions">
+          <button type="button" class="cancel">Cancel</button>
+          <button type="button" class="confirm">Clear</button>
+        </div>
+      </div>
+      <div class="row last-scan">
+        <span>Last Scanned</span>
+        <span class="timestamp">Never</span>
+      </div>
+      <p class="status" role="status" hidden></p>
+    </section>
+  </template>
+</body>
+</html>
