@@ -4,6 +4,8 @@
 
 Sidebar Nav adds an optional, expandable navigation sidebar to websites you choose. It is especially useful when a website's navigation is crowded, nested, or difficult to reach in a narrow browser window.
 
+Sidebar Nav was originally created to improve navigation on [Higgsfield.ai](https://higgsfield.ai), where deeply nested features and a crowded horizontal menu can make navigation difficult in smaller browser windows. It has since evolved into a general-purpose navigation enhancement for other websites.
+
 The original website navigation stays in place. Open Sidebar Nav from a small tab on the left edge, browse the saved feature links, and close it when you are done. **Scanning is manual**, and saved navigation is available again when you restart Chrome.
 
 **Free to use · Chrome extension · Manifest V3 · Version 0.5.0**
